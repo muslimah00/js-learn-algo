@@ -20,3 +20,11 @@ function printStarsReverse(x: number): void {
     }
 }
 printStarsReverse(5)
+
+// print pyramid
+function printPyramid(x: number): void {
+    for (let i = 1; i <= x; i++) {
+        console.log (" ".repeat(x - i) + "*".repeat(i * 2 - 1))
+    }
+}
+printPyramid(5)
